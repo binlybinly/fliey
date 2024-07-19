@@ -5,8 +5,8 @@ const UUID = process.env.UUID || 'daecfd7e-409f-49a7-b04d-8ed406b29e65';
 const NEZHA_SERVER = process.env.NEZHA_SERVER || '';  // 哪吒3个变量不全不运行
 const NEZHA_PORT = process.env.NEZHA_PORT || '';             // 哪吒端口为443时开启tls
 const NEZHA_KEY = process.env.NEZHA_KEY || '';                   // 哪吒客户端密钥
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || '';               // 固定隧道域名，留空即启用临时隧道
-const ARGO_AUTH = process.env.ARGO_AUTH || '';                   // 固定隧道json或token，留空即启用临时隧道
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'fly0718.dfdrgtftd.eu.org';               // 固定隧道域名，留空即启用临时隧道
+const ARGO_AUTH = process.env.ARGO_AUTH || '{"AccountTag":"54162b6d896555a9aecf4f4d11355896","TunnelSecret":"g9eN+EOiuuXshBt4yq9AiYfmwye4HzvODDP5oM0DKl4=","TunnelID":"730e279c-838b-4bff-995e-b38e95902e9a"}';                   // 固定隧道json或token，留空即启用临时隧道
 const CFIP = process.env.CFIP || 'government.se';                // 优选域名或优选ip
 const CFPORT = process.env.CFPORT || 443;                        // 节点端口，一般不用改
 const NAME = process.env.NAME || 'fly';                         // 节点名称
